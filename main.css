@@ -12,6 +12,7 @@ body {
     background-position: center;
     background-attachment: fixed;
     font-family: Arial, Helvetica, sans-serif;
+    caret-color: transparent;
 }
 
 /* NAV */
@@ -210,7 +211,6 @@ nav ul li a {
     margin-right: auto;
     text-align: center;
     line-height: 40px;
-    /* background: radial-gradient(circle closest-side, #fff, rgba(255,255,255,0)); */
     position: relative;
 }
 .section-title {
@@ -380,8 +380,6 @@ nav ul li a {
     font-family: 'Montserrat', sans-serif;
 
 }
-.grid-area {
-}
 #g1 {
     grid-row: 1;
     grid-column: 1;
@@ -414,21 +412,22 @@ nav ul li a {
 }
 .grid-items input[type="checkbox"] {
     margin-right: 25px;
-    display: none;
 }
 .grid-item {
     font-size: 1.25em;
     display: flex;
     align-items: center;
-
-    text-align: center;
-    justify-content: center;
-    border: 1px solid black;
+    justify-content: flex-start;
+    text-align: left;
+    /* border: 1px solid black; */
+    background: #3c7f72;
+    box-shadow: inset 3px 3px 5px #60cfb9, inset -3px -3px 5px black;
+    color: white;
     padding: 15px;
 }
 .grid-item:hover {
     cursor: pointer;
-    background: linear-gradient(to right, #3c7f72, #fff);
+    /* background: linear-gradient(to right, #3c7f72, #fff); */
 }
 .grid-item.true {
     background: #3c7f72;
@@ -473,6 +472,8 @@ nav ul li a {
     padding: 15px;
     background: #3c7f72;
     margin-top: 25px;
+    box-shadow: inset 3px 3px 5px #60cfb9, inset -3px -3px 5px black;
+
 }
 .gobut a {
     text-decoration: none;
@@ -483,6 +484,7 @@ nav ul li a {
     font-family: 'Poiret One', cursive;
     font-size: 3em;
     margin-top: 50px;
+
 }
 .darrow {
     background: url('./img/darrow.png');
@@ -551,6 +553,15 @@ nav ul li a {
 .cinfo div:last-child {
     margin-bottom: 25px;
 }
+.csocial {
+    display: inline-block;
+}
+.csocial:nth-child(6) {
+    margin-left: 0px;
+}
+.csocial:last-child {
+    margin-left: 0px;
+}
 .csocial svg {
     height: 35px;
     width: 35px;
@@ -593,6 +604,7 @@ nav ul li a {
     outline: 0; 
     /* border: none; */
     font-family: 'Poiret One', cursive;
+    caret-color: black;
 }
 #submitBut {
     padding: 15px 25px;
@@ -603,11 +615,7 @@ nav ul li a {
     margin-right: auto;
     margin-top: 15px;
     font-family: 'Montserrat', sans-serif;
-}
-#submitBut:hover {
-    background: #d66945;
-    color: white;
-    border: 1px solid white;
+    box-shadow: inset 3px 3px 5px rgb(183, 183, 183), inset -3px -3px 5px black;
     cursor: pointer;
 }
 .cform textarea {
@@ -616,10 +624,10 @@ nav ul li a {
     padding: 15px 25px;
     color: #333;
     outline: 0; 
-    /* border: none; */
     border: none;
     font-family: 'Poiret One', cursive;
     min-height: 200px;
+    caret-color: black;
 }
 
 /* MEDIA QUERIES */
@@ -773,9 +781,6 @@ nav ul li a {
         text-align: center;
         justify-content: center;
         margin-top: 75px;
-    }
-    .grid-items input {
-        display: none;
     }
     #gt1, #gt3 {
         flex-direction: row-reverse;

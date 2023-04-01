@@ -110,23 +110,23 @@
         <div class="services">
             <div class="section-title2">Services</div> 
             <div class="section-line2"></div>
-            <div class="chose-text">Let's get you started<br> <div>Which services will you need?</div></div>
+            <div class="chose-text">Let's get you started<br> <div><u>Click</u> on the services you will need below</div></div>
             <div class="services-grid">
                 <div class="grid-area" id="g1">
                     <div class="grid-title" id="gt1"><div class="grid-icon"></div><div>Light Housekeeping Services</div></div>
                     <div class="grid-items">
+                        <div class="grid-item false" id="dinner"><input type="checkbox" name="dinner">Meal Prepping</div>
                         <div class="grid-item false" id="vaccuum"><input type="checkbox" name="vaccuum">Vaccuum</div>
                         <div class="grid-item false" id="counters"><input type="checkbox" name="counters">Wipe Counters</div>
                         <div class="grid-item false" id="dishes"><input type="checkbox" name="dishes">Dishes</div>
                         <div class="grid-item false" id="laundry"><input type="checkbox" name="laundry">Laundry</div>
                         <div class="grid-item false" id="linens"><input type="checkbox" name="linens">Change Linens</div>
-                        <div class="grid-item false" id="fridge"><input type="checkbox" name="fridge">Clean Fridge</div>
-                        <div class="grid-item false" id="dinner"><input type="checkbox" name="dinner">Meal Prepping</div>
+                        <div class="grid-item false" id="fridge"><input type="checkbox" name="fridge">Clean Fridge</div> 
                     </div>
                     
                 </div>
                 <div class="grid-area" id="g2">
-                    <div class="grid-title"id="gt2"><div>Errand Services</div><div class="grid-icon"></div></div>
+                    <div class="grid-title" id="gt2"><div>Errand Services</div><div class="grid-icon"></div></div>
                     <div class="grid-items">
                         <div class="grid-item false" id="groceryShop"><input type="checkbox" name="groceryShop">Grocery Shopping</div>
                         <div class="grid-item false" id="groceryPickup"><input type="checkbox" name="groceryPickup">Grocery Pickup</div>
@@ -169,7 +169,17 @@
                     <div class="cphone">(970) 556 -1041</div>
                     <div class="csocial">
                         <a href="https://www.facebook.com/profile.php?id=100088015940714">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="#333" viewBox="0 0 320 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"/></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="#333" viewBox="0 0 320 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"/></svg>
+                        </a>
+                    </div>
+                    <div class="csocial">
+                        <a href="https://www.instagram.com/your_housewife_helper/">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M224,202.66A53.34,53.34,0,1,0,277.36,256,53.38,53.38,0,0,0,224,202.66Zm124.71-41a54,54,0,0,0-30.41-30.41c-21-8.29-71-6.43-94.3-6.43s-73.25-1.93-94.31,6.43a54,54,0,0,0-30.41,30.41c-8.28,21-6.43,71.05-6.43,94.33S91,329.26,99.32,350.33a54,54,0,0,0,30.41,30.41c21,8.29,71,6.43,94.31,6.43s73.24,1.93,94.3-6.43a54,54,0,0,0,30.41-30.41c8.35-21,6.43-71.05,6.43-94.33S357.1,182.74,348.75,161.67ZM224,338a82,82,0,1,1,82-82A81.9,81.9,0,0,1,224,338Zm85.38-148.3a19.14,19.14,0,1,1,19.13-19.14A19.1,19.1,0,0,1,309.42,189.74ZM400,32H48A48,48,0,0,0,0,80V432a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V80A48,48,0,0,0,400,32ZM382.88,322c-1.29,25.63-7.14,48.34-25.85,67s-41.4,24.63-67,25.85c-26.41,1.49-105.59,1.49-132,0-25.63-1.29-48.26-7.15-67-25.85s-24.63-41.42-25.85-67c-1.49-26.42-1.49-105.61,0-132,1.29-25.63,7.07-48.34,25.85-67s41.47-24.56,67-25.78c26.41-1.49,105.59-1.49,132,0,25.63,1.29,48.33,7.15,67,25.85s24.63,41.42,25.85,67.05C384.37,216.44,384.37,295.56,382.88,322Z"/></svg>
+                        </a>
+                    </div>
+                    <div class="csocial">
+                        <a href="https://www.google.com/search?q=yourhousewifehelper#lrd=0x876ea97bbf7784dd:0x2d7050c99a9df872,1,,,,">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 488 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M488 261.8C488 403.3 391.1 504 248 504 110.8 504 0 393.2 0 256S110.8 8 248 8c66.8 0 123 24.5 166.3 64.9l-67.5 64.9C258.5 52.6 94.3 116.6 94.3 256c0 86.5 69.1 156.6 153.7 156.6 98.2 0 135-70.4 140.8-106.9H248v-85.3h236.1c2.3 12.7 3.9 24.9 3.9 41.4z"/></svg>
                         </a>
                     </div>
                 </div>
@@ -210,25 +220,38 @@
 
             const buttons = document.getElementsByClassName('grid-item');
 
-            Array.from(buttons).forEach((i) => {
-                i.addEventListener("click", (e) => {
-                if(i.classList.contains('true')) {
-                    i.classList.remove('true');
-                    i.classList.add('false');
-                } else {
-                    i.classList.remove('false');
-                    i.classList.add('true');
-                }
-                });
-            });
+            // Array.from(buttons).forEach((i) => {
+            //     i.addEventListener("click", (e) => {
+            //         if (e.target instanceof HTMLInputElement) {
+            //             console.log('input found');
+            //         }
+            //         else {
+            //             console.log("button found")
+            //             if(i.classList.contains('true')) {
+            //                 i.classList.remove('true');
+            //                 i.classList.add('false');
+            //             } else {
+            //                 i.classList.remove('false');
+            //                 i.classList.add('true');
+            //             }
+            //         }
+            //         console.log(e);
+            //     });
+            // });
 
             const boxes = ["vaccuum", "counters", "dishes", "laundry", "linens", "fridge", "dinner", "groceryShop", "groceryPickup",
         "giftShop", "prePickup","pantrys","closets","cupboards","linenCloset","coatCloset","birthday","christmas","anniversary","baby"]
 
             boxes.forEach(element => {
-                $("#" + element).click(() => {
-                    var checkBox = $("input[name=" + element + "]");
-                checkBox.prop("checked", !checkBox.prop("checked"));
+                $("#" + element).click((e) => {
+                    if (e.target instanceof HTMLInputElement) {
+                        // console.log("input found.");
+                    }
+                    else {
+                        var checkBox = $("input[name=" + element + "]");
+                        checkBox.prop("checked", !checkBox.prop("checked"));
+                    }
+                    
                 })
             });
         })
